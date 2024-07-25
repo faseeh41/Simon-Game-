@@ -3,7 +3,7 @@
 ## Using Javascript for logic and sounds to guess the next move !
 
 <h2 align="center">
-  <a href="https://simon-game-liart-two.vercel.app/" target="_blank">Simon-Game.vercel.app</a>
+  <a href="https://simon-game-liart-faseeh.vercel.app/" target="_blank">Simon-Game-Faseeh.vercel.app</a>
 </h2>
 
 <div align="center">
