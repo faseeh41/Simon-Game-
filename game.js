@@ -8,6 +8,7 @@ var level = 0;
 
 $("#start-button").click(function() {
   if (!started) {
+    $("#start-button").hide(); // Hide the start button when the game starts
     $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
@@ -35,6 +36,7 @@ function checkAnswer(currentLevel) {
     playSound("wrong");
     $("body").addClass("game-over");
     $("#level-title").text("Game Over, Press Start Button to Restart");
+    $("#start-button").show(); // Show the start button again after game over
 
     setTimeout(function() {
       $("body").removeClass("game-over");
