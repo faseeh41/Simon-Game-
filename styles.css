@@ -13,8 +13,23 @@ body {
 #start-button {
   font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
-  padding: 10px 20px;
+  padding: 15px 30px;
   margin-bottom: 20px;
+  background-color: #fef2bf;
+  border: none;
+  border-radius: 10px;
+  color: #011f3f;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#start-button:hover {
+  background-color: #fff700;
+  box-shadow: 0 0 10px #fff700, 0 0 20px #fff700, 0 0 30px #fff700;
+}
+
+#start-button:active {
+  transform: scale(0.95);
 }
 
 .container {
